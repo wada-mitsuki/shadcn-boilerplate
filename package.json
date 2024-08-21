@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.1",
