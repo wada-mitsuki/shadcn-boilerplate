@@ -51,7 +51,7 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "bun lint",
       "bun format",
       "bun lint:fix"

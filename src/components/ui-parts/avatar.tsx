@@ -4,11 +4,11 @@ import {
   AvatarImage,
 } from '@/components/shadcn-ui/ui/avatar';
 
-interface AvatarProps {
+interface AvatarType {
   image: string;
 }
 
-export const Avatar = ({ image }: AvatarProps) => {
+export const Avatar = ({ image }: AvatarType) => {
   return (
     <ShadcnAvatar>
       <AvatarImage src={image} />
